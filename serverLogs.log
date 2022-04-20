@@ -1,0 +1,13 @@
+14:09:50.880 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+14:09:51.143 [main] INFO  com.lab.server.ServerLogger - Файл успешно прочитан, ожидание подключения
+14:10:09.230 [main] INFO  com.lab.server.ServerLogger - Клиент подключился
+14:10:10.934 [main] DEBUG com.lab.server.ServerLogger - Прочитано 175 байт
+14:10:10.985 [main] INFO  com.lab.server.ServerLogger - Клиент отправил запрос: [Имя команды = info]
+14:10:10.985 [main] INFO  com.lab.server.ServerLogger - Результат исполнения запроса: Тип коллекции - class java.util.TreeSet
+Количество элементов - 8
+Дата инициализации - 2022-04-19T14:09:51.140216900
+14:10:10.991 [main] INFO  com.lab.server.ServerLogger - Отправлен ответ размером 288 байт
+14:10:14.285 [main] INFO  com.lab.server.ServerLogger - Клиент отключился
+14:10:17.245 [Thread-0] INFO  com.lab.server.ServerLogger - На сервера введена команда "exit"
+14:10:17.259 [Thread-0] INFO  com.lab.server.ServerLogger - Коллекция успешно сохранена в файл
+14:10:17.260 [Thread-0] INFO  com.lab.server.ServerLogger - Работа сервера остановлена
